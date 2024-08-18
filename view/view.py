@@ -10,4 +10,4 @@ class MovieView:
 
     def add_actor(self, name, role):
         self.controller.add_actor(name, role)
-        print(f"Актер {name} с ролью '{role}' добавлен.")
+        print(f"Актер {name} в роли {role} добавлен.")
