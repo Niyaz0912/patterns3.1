@@ -4,12 +4,12 @@ from view.view import MovieView
 
 # Создаем экземпляр фильма
 movie = Movie(
-    title="Finding Nemo",
-    genre="Animation, Adventure",
-    director="Andrew Stanton",
-    release_year=2003,
-    duration="100 minutes",
-    studio="Pixar Animation Studios"
+    title="Области тьмы",
+    genre="Фантастика",
+    director="Нил Бёргер",
+    release_year=2011,
+    duration="105 минут",
+    studio="Relativity Media, Virgin Produced"
 )
 
 # Создаем контроллер для фильма
@@ -22,8 +22,10 @@ view = MovieView(controller)
 view.show_information()
 
 # Добавляем актеров
-view.add_actor("Albert Brooks", "Marlin")
-view.add_actor("Ellen DeGeneres", "Dory")
+view.add_actor("Бредли Купер", "Эдди Морра")
+view.add_actor("Роберт Де Ниро", "Карл Ван Лун")
+view.add_actor("Эбби Корниш", "Линди")
+view.add_actor("Эндрю Ховард", "Геннадий")
 
 # Показываем обновленную информацию о фильме
 view.show_information()
